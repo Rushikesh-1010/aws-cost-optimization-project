@@ -1,14 +1,77 @@
-## Project Scenario
+# AWS Cloud Cost Optimization & Monitoring
 
-A demo company is running AWS development and testing resources. Some resources may be underutilized or unnecessary, resulting in avoidable cloud costs.
+## Overview
 
-The objective of this project is to analyze AWS resource usage, identify cost optimization opportunities, implement safe cost-saving measures, and document the results.
+This project demonstrates practical AWS cloud cost
+optimization techniques using monitoring, resource
+analysis, automation, tagging and infrastructure as code.
 
-**Environment:** Development  
-**AWS Region:** ap-south-1 (Mumbai)
+The objective is to identify unnecessary AWS resource
+usage, implement cost-saving measures and measure the
+impact before and after optimization.
 
-**Planned services:** EC2, EBS, S3, CloudWatch, AWS Budgets, Lambda, EventBridge, SNS and IAM.
+## Objectives
 
-**DevOps tools:** Terraform, Git and GitHub Actions.
+- Analyze AWS cloud costs
+- Identify underutilized resources
+- Optimize EC2 usage
+- Identify unused EBS volumes
+- Implement S3 lifecycle policies
+- Configure AWS Budgets
+- Monitor resources using CloudWatch
+- Automate EC2 shutdown using Lambda and EventBridge
+- Apply IAM least-privilege principles
+- Provision infrastructure using Terraform
+- Validate infrastructure using GitHub Actions
 
-**Expected outcome:** A working AWS cost optimization solution with resource tagging, monitoring, scheduled shutdown automation, and a before-and-after cost analysis based on actual usage and billing data.
+## AWS Services
+
+- Amazon EC2
+- Amazon EBS
+- Amazon S3
+- Amazon CloudWatch
+- AWS Cost Explorer
+- AWS Budgets
+- AWS Lambda
+- Amazon EventBridge
+- Amazon SNS
+- AWS IAM
+
+## DevOps Tools
+
+- Terraform
+- Git
+- GitHub
+- GitHub Actions
+
+## Region
+
+AWS Mumbai Region - ap-south-1
+
+## Project Status
+
+Currently in development.
+
+## Architecture
+
+Architecture diagram will be added after
+infrastructure implementation.
+
+## Cost Optimization Techniques
+
+1. EC2 scheduled shutdown
+2. EC2 utilization analysis
+3. Unused EBS identification
+4. S3 lifecycle management
+5. Resource tagging
+6. AWS Budget monitoring
+7. Automated cost-control actions
+
+## Results
+
+Cost analysis and estimated savings will be
+documented after implementation.
+
+## Author
+
+Rushikesh Debadwar 
